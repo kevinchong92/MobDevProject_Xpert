@@ -2,7 +2,7 @@
 
 **Status:** Proposed
 
-**Deciders:** [Names of decision-makers]
+**Deciders:** Kevin, Yuen Chong || Alex, Shek Yin Leung || Michael, Mo Chau Ngan
 
 **Date:** 2023-10-19
 
