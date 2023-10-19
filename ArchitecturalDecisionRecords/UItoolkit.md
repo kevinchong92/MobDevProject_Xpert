@@ -2,7 +2,7 @@
 
 **Status:** Proposed
 
-**Deciders:** Kevin, Yuen Chong || Alex, Shek Yin Leung || Michael, Mo Chau Ngan
+**Deciders:** [Names of decision-makers]
 
 **Date:** 2023-10-19
 
@@ -15,21 +15,44 @@ Contents:
 
 ### Context and Problem Statement
 
-To provide a consistent and intuitive user experience, the mobile app needs a UI toolkit that offers customizable components optimized for mobile.
+To build an intuitive and user-friendly interface for "Xpert You Can't Win", we need to choose a UI toolkit suitable for React Native.
 
 ### Decision Drivers
 
-- **Consistency:** The UI should have a uniform look and feel.
-
-- **Customizability:** Being able to adapt components to the app's design.
+- **User Experience:** A toolkit that allows creating seamless and interactive user interfaces.
+  
+- **Development Speed:** Toolkit that provides ready-to-use components.
 
 ### Considered Options
 
-1. **React Native Elements**
-
-2. **NativeBase**
+1. React Native Elements
+2. Native Base
+3. Shoutem UI
+4. Ant Design Mobile
+5. UI Kitten
 
 ### Decision Outcome
 
-**Chosen option:** React Native Elements.
+**Chosen option:** React Native Elements
 
+### Positive Consequences
+
+- Wide range of components.
+- Consistent look and feel.
+- Active community support.
+
+### Negative Consequences
+
+- Might have a steeper learning curve compared to other toolkits.
+
+### Pros and Cons of the Options
+
+**React Native Elements**
+
+- Good, due to its comprehensive set of components.
+- Good, because of the consistent design across the toolkit.
+- Bad, potentially steeper learning curve.
+
+### Links
+
+- [React Native Elements](https://reactnativeelements.com/)
