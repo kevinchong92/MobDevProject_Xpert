@@ -12,6 +12,10 @@ Contents:
 - [Decision Drivers](#decision-drivers)
 - [Considered Options](#considered-options)
 - [Decision Outcome](#decision-outcome)
+- [Positive Consequences](#positive-consequences)
+- [Negative Consequences](#negative-consequences)
+- [Pros and Cons of the Options](#pros-and-cons-of-the-options)
+- [Links](#links)
 
 ### Context and Problem Statement
 
