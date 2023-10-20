@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /* background-color: #f4f4f4; */
+            background-image: url("src/wall.png");
+            font-family: 'Lobster', sans-serif;
+            color: rgb(98, 29, 29);
+            text-align: center;
+        }
+
+        .container {
+            height: 27rem;
+            width: 13rem;
+            background-color: rgba(250, 243, 223, 0.852);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .winning-sign-holder{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .winning-sign{
+            width:8rem;
+        }
+
+        .score{
+            /* border: 2px solid #EFC8A9; */
+            text-align: left;
+            width: 10rem;
+        }
+        .footer {
+            margin-top: 1rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            display: flex;
+            justify-content: space-around;
+            font-size: x-large;
+        }
+        .cross-circle {
+            width: 40px;
+            height: 40px;
+            margin: 1.5rem;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="winning-title">
+            <h1>Winner!</h1>
+       </div>
+       <div class="winner-sign-holder">
+            <div>
+                <img src="src/cross1.png" alt="cross" class="winning-sign">
+            </div>
+            <div>
+                <span>Cross</span>
+            </div>
+       </div>
+       <div class="score">
+        <h2>Draw: 26 times</h2>
+        <h2>Time used: 21:36</h2>
+        </div>
+
+        <div class="footer">
+            <div><a href="gamePlay.html">
+                <img src="src/restart.png" class="cross-circle" alt="Start Button">
+              </a>
+            </div>            
+            <div><a href="index.html">
+                <img src="src/home.png" class="cross-circle" alt="Start Button">
+              </a>
+            </div>
+            
+        </div>
+
+
+    </div>
+</body>
+</html>
