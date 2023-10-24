@@ -41,21 +41,40 @@ To build an intuitive and user-friendly interface for "Xpert You Can't Win", we 
 
 ### Positive Consequences
 
-- Wide range of components.
-- Consistent look and feel.
-- Active community support.
+- A vast repertoire of components at disposal.
+- Uniformity in design aesthetics throughout.
+- Bolstered by an active and responsive community.
 
 ### Negative Consequences
 
-- Might have a steeper learning curve compared to other toolkits.
+- Might be perceived as more challenging for newcomers.
 
 ### Pros and Cons of the Options
 
 **React Native Elements**
+- **Good:** Features an expansive library of components.
+- **Good:** Design consistency is maintained throughout the toolkit.
+- **Bad:** Some may find the initial learning curve a tad steep.
 
-- Good, due to its comprehensive set of components.
-- Good, because of the consistent design across the toolkit.
-- Bad, potentially steeper learning curve.
+**Native Base**
+- **Good:** Provides essential cross-platform UI components.
+- **Good:** Easily themeable components for customization.
+- **Bad:** Limited set of components compared to some other toolkits.
+
+**Shoutem UI**
+- **Good:** Comes with a visually appealing set of components.
+- **Good:** Integrates seamlessly with Shoutem platform.
+- **Bad:** Less flexibility if not using the Shoutem platform.
+
+**Ant Design Mobile**
+- **Good:** Inherits the well-known design principles of Ant Design.
+- **Good:** Packed with a range of rich components for mobile.
+- **Bad:** Might feel heavy for smaller applications.
+
+**UI Kitten**
+- **Good:** Offers a modular and customizable approach.
+- **Good:** Can be combined with Eva Design System for enhanced aesthetics.
+- **Bad:** Requires additional configurations for full potential.
 
 ### Links
 
