@@ -55,25 +55,25 @@ To elevate the immersive experience in "Xpert You Can't Win," we're evaluating p
 ### Pros and Cons of the Options
 
 **GPS**
-- Good: Good for potential multi-player modes to locate nearby opponents.
-- Bad: May be redundant for primarily single-player experiences.
+- **Good:** Good for potential multi-player modes to locate nearby opponents.
+- **Bad:** May be redundant for primarily single-player experiences.
 
 **Speaker**
-- Good: Enhances user experience by offering an auditory dimension to gameplay.
-- Bad: Might be intrusive in quiet settings or where loud volumes are not suitable.
+- **Good:** Enhances user experience by offering an auditory dimension to gameplay.
+- **Bad:** Might be intrusive in quiet settings or where loud volumes are not suitable.
 
 **Fingerprint scanner**
-- Good: Can offer a secure and personalized game start.
-- Bad: Limited to devices with this hardware feature.
+- **Good:** Can offer a secure and personalized game start.
+- **Bad:** Limited to devices with this hardware feature.
 
 **Camera**
-- Good: Potential for augmented reality (AR) game modes or photo-based challenges.
-- Bad: Privacy concerns and need for user permissions.
+- **Good:** Potential for augmented reality (AR) game modes or photo-based challenges.
+- **Bad:** Privacy concerns and need for user permissions.
 
 **Bluetooth**
-- Good: Allows connectivity with external devices for expanded gameplay (e.g., game controllers).
-- Bad: Increased battery consumption and compatibility concerns with various Bluetooth versions.
+- **Good:** Allows connectivity with external devices for expanded gameplay (e.g., game controllers).
+- **Bad:** Increased battery consumption and compatibility concerns with various Bluetooth versions.
 
 ### Links
 
-- [React Native Audio Toolkit](https://github.com/react-native-audio-toolkit/react-native-audio-toolkit)
+- [React Native Audio Toolkit](https://www.npmjs.com/package/@react-native-community/audio-toolkit)
