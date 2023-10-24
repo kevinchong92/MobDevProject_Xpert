@@ -50,10 +50,19 @@ For a smooth and intuitive user journey throughout "Xpert You Can't Win", we nee
 ### Pros and Cons of the Options
 
 **React Navigation**
+- **Good:** Highly compatible with React Native out of the box.
+- **Good:** Boasts a robust community and detailed documentation.
+- **Bad:** Can be less performant with extremely complex navigation structures.
 
-- Good, due to its high compatibility with React Native.
-- Good, because of its strong community support.
-- Bad, if dealing with highly intricate navigation needs.
+**React Native Navigation**
+- **Good:** Uses native modules to achieve navigation, potentially offering better performance.
+- **Good:** Facilitates deep linking and other advanced features.
+- **Bad:** Requires more native code, leading to a steeper learning curve for pure JavaScript developers.
+
+**Native Navigation**
+- **Good:** Leverages platform-specific navigation solutions ensuring the best performance.
+- **Good:** Integrates natively with iOS and Android platforms.
+- **Bad:** Demands familiarity with native development, which can be daunting for developers accustomed only to JavaScript.
 
 ### Links
 
