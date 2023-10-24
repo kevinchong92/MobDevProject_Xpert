@@ -19,38 +19,60 @@ Contents:
 
 ### Context and Problem Statement
 
-To enhance the gameplay experience in "Xpert You Can't Win", we need to decide on the hardware integrations.
+To elevate the immersive experience in "Xpert You Can't Win," we're evaluating potential hardware integrations that align with gameplay requirements.
 
 ### Decision Drivers
 
-- **User Experience:** Hardware that can augment the gameplay.
+- **User Experience:** Hardware integrations that will augment and deepen the gameplay.
   
-- **Compatibility:** Hardware features commonly available on most devices.
+- **Compatibility:** Features that are prevalent across a majority of devices to ensure a wider user reach, with a special focus on Android compatibility.
+
+- **Develop Time:** Balancing integration complexity with developmental timelines.
 
 ### Considered Options
 
 1. GPS
 2. Speaker
 3. Fingerprint scanner
+4. Camera
+5. Bluetooth
 
 ### Decision Outcome
 
-**Chosen option:** Speaker
+**Chosen option:** Speaker Only
+- Consider the development timeline is short and as the game is a single player game, other options were deemed superfluous.
 
 ### Positive Consequences
 
-- Can provide auditory feedback and enhance game ambiance.
+- Enriched game ambiance through auditory feedback.
+- Potential for immersive soundtracks and audio cues.
 
 ### Negative Consequences
 
-- Requires handling device volume settings and potential interruptions.
+- Necessitates careful handling of device volume settings to avoid disruptions.
+- Possibility of sound disturbances in certain settings or scenarios.
 
 ### Pros and Cons of the Options
 
-**Speaker**
+**GPS**
+- Good: Good for potential multi-player modes to locate nearby opponents.
+- Bad: May be redundant for primarily single-player experiences.
 
-- Good, due to enhancement of user experience with sound.
-- Bad, because of potential disturbances in certain environments.
+**Speaker**
+- Good: Enhances user experience by offering an auditory dimension to gameplay.
+- Bad: Might be intrusive in quiet settings or where loud volumes are not suitable.
+
+**Fingerprint scanner**
+- Good: Can offer a secure and personalized game start.
+- Bad: Limited to devices with this hardware feature.
+
+**Camera**
+- Good: Potential for augmented reality (AR) game modes or photo-based challenges.
+- Bad: Privacy concerns and need for user permissions.
+
+**Bluetooth**
+- Good: Allows connectivity with external devices for expanded gameplay (e.g., game controllers).
+- Bad: Increased battery consumption and compatibility concerns with various Bluetooth versions.
 
 ### Links
 
