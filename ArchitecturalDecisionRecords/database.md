@@ -15,7 +15,6 @@ Contents:
 - [Positive Consequences](#positive-consequences)
 - [Negative Consequences](#negative-consequences)
 - [Pros and Cons of the Options](#pros-and-cons-of-the-options)
-- [Links](#links)
 
 ### Context and Problem Statement
 
@@ -29,6 +28,8 @@ The mobile app "Xpert You Can't Win" needs a reliable method to store data. We m
 
 - **Performance:** Efficient data retrieval and storage.
 
+- **Is database needed:** Is the database a must in this project.
+
 ### Considered Options
 
 1. Local Storage (Encrypted)
@@ -38,40 +39,36 @@ The mobile app "Xpert You Can't Win" needs a reliable method to store data. We m
 
 ### Decision Outcome
 
-**Chosen option:** Local Storage (Encrypted)
+**Chosen option:** No Storage
 
 ### Positive Consequences
 
-- Secure storage of data on the device.
-- Quick data retrieval without the need for internet access.
+- **Simplicity:** Bypasses challenges associated with data management and storage.
+- **Security:** Eliminates potential risks linked to data storage, enhancing user trust.
 
 ### Negative Consequences
 
-- Data is restricted to the device, which means it won't be available if the user switches devices.
-- Encryption might add a slight overhead to read/write operations.
+- **User Experience:** Players might anticipate their in-game progress or preferences to be saved for future sessions, which would not be possible without storage.
+- **Flexibility:** The absence of storage could restrict potential features or game mechanics that might require data persistence in the future.
 
 ### Pros and Cons of the Options
 
 **Local Storage (Encrypted)**
 
-- Good, due to data security on the device.
-- Bad, because data isn't automatically backed up or accessible on other devices.
+- Good, for safeguarding user data at the device level.
+- Bad, as data won't be easily accessible across multiple devices.
 
 **Local Storage (Unencrypted)**
 
-- Good, for quick data read/write operations.
-- Bad, because of potential security risks.
+- Good, for swift data read/write processes.
+- Bad, due to potential vulnerabilities and security threats.
 
 **Remote Database**
 
-- Good, for centralized data storage and accessibility from multiple devices.
-- Bad, because it requires internet connectivity for data operations.
+- Good, as it allows for data centralization and multi-device accessibility.
+- Bad, due to dependency on internet connectivity for most data-related functions.
 
 **No Storage**
 
-- Good, for apps that don't need persistent data storage.
-- Bad, because user data or preferences can't be saved across sessions.
-
-### Links
-
-- [React Native Secure Storage](https://github.com/talut/react-native-secure-storage)
+- Good, as it offers a streamlined development process without data management complexities.
+- Bad, since it denies users the continuity of saved game states or preferences across sessions.
