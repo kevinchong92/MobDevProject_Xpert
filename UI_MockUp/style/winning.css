@@ -1,0 +1,62 @@
+/********************************************************
+* This is the UI MockUp for mobile project phase 3      *
+* Group Number: 8                                       *
+* Student Name: (Alex) Shek Yin, Leung                  *
+*               (Kevin)Yuen, Chong                      *
+*               (Micheal) Mo Chau, Ngan                 *
+* App Name: Xpert You Can’t Win                         *
+* Completed Date: 23 Oct 2023                           *
+********************************************************/
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #f4f4f4; */
+    background-image: url("../src/wall.png");
+    font-family: 'Lobster', sans-serif;
+    color: rgb(98, 29, 29);
+    text-align: center;
+}
+
+.container {
+    height: 27rem;
+    width: 13rem;
+    background-color: rgba(250, 243, 223, 0.852);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.winning-sign-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.winning-sign{
+    width:8rem;
+}
+
+.score{
+    /* border: 2px solid #EFC8A9; */
+    text-align: left;
+    width: 10rem;
+}
+.footer {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+}
+.cross-circle {
+    width: 40px;
+    height: 40px;
+    margin: 1.5rem;
+}

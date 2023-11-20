@@ -1,0 +1,78 @@
+/********************************************************
+* This is the UI MockUp for mobile project phase 3      *
+* Group Number: 8                                       *
+* Student Name: (Alex) Shek Yin, Leung                  *
+*               (Kevin)Yuen, Chong                      *
+*               (Micheal) Mo Chau, Ngan                 *
+* App Name: Xpert You Can’t Win                         *
+* Completed Date: 23 Oct 2023                           *
+********************************************************/
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #f4f4f4; */
+    background-image: url("../src/wall.png");
+    font-family: 'Lobster', sans-serif;
+    color: rgb(98, 29, 29);
+    text-align: center;
+}
+.container {
+    height: 27rem;
+    width: 13rem;
+    background-color: rgba(250, 243, 223, 0.852);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+.cross-circle {
+    width: 60px;
+    height: 60px;
+}
+.sign-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 0.7rem;
+}
+.sign{
+    margin: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    margin-top: 0.7rem;
+}
+.diff-container{
+    margin-top: 0.7rem;
+}
+.diff-boarder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    border: 2px solid #EFC8A9;
+}
+.diff{
+    /* margin: 1rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid #EFC8A9;
+    width: 6rem;
+    padding: 1rem;
+}
+.selected{
+    background-color: #EFC8A9;
+}
+.startButton{
+    width: 4rem;
+    
+    margin-top: 1.2rem;
+
+}
